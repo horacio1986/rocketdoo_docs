@@ -1,0 +1,13 @@
+site_name: Rocketdoo
+theme: dracula
+nav:
+  - Home: index.md
+  - Get Started: get-started.md
+  - Instructions: instructions.md
+  - Recommended extensions: recommend-extensions.md
+  - Use Cases: use-cases.md
+  - Common Mistakes: common-mistakes.md
+  - Debbuging in Odoo: debbuging-odoo.md
+  - How to collaborate in the project?: collaborate.md
+  - HelpDesk: helpdesk.md
+
