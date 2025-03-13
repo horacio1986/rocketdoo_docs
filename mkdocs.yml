@@ -3,11 +3,17 @@ theme: dracula
 nav:
   - Home: index.md
   - Get Started: get-started.md
+  - Windows y WSL2: windows.md
   - Instructions: instructions.md
   - Recommended extensions: recommend-extensions.md
   - Use Cases: use-cases.md
   - Common Mistakes: common-mistakes.md
   - Debbuging in Odoo: debbuging-odoo.md
-  - How to collaborate in the project?: collaborate.md
+  - How to collaborate in this project?: collaborate.md
   - HelpDesk: helpdesk.md
+extra_javascript:
+  - js/copy-code.js
+
+extra_css:
+  - css/custom.css
 
