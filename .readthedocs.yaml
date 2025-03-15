@@ -1,7 +1,10 @@
 version: 2
-formats: all
-mkdocs:
+build:
+  os: ubuntu-22.04
+  tools:
+    python: "3.10"
+  jobs:
+    pre_build:
+      - pip install mkdocs mkdocs-dracula
+sphinx:
   configuration: mkdocs.yml
-python:
-  install:
-    - requirements: requirements.txt
