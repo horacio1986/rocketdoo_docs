@@ -1,4 +1,4 @@
-site_name: Rocketdoo
+site_name: Rocketdoo Docs
 theme: dracula
 nav:
   - Home: index.md
@@ -17,3 +17,7 @@ nav:
   - Debbuging in Odoo: debbuging-odoo.md
   - How to collaborate in this project?: collaborate.md
   - HelpDesk: helpdesk.md
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: "#"

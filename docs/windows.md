@@ -9,8 +9,9 @@ But what we will address are some recommendations on how to use this tool to be 
 to develop with Rocketdoo and VSCode.
 
 Assuming you already have WSL2 installed on your computer, properly configured with sudo access to the user you created.
-Access to the user you created. Let's continue with some necessary steps to get our machine ready to develop with Rocketdoo and VSCode.
-ready to be able to develop with ROCKETDOO. Remember that you can use any Linux distribution,
+Let's continue with some necessary steps to get our machine ready to develop with Rocketdoo and VSCode.
+
+Remember that you can use any Linux distribution,
 although for daily use we suppose that Ubuntu 20/22/24.04 or Debian 11/12 should be able to handle it.
 
 ## Necessary Steps:
@@ -47,5 +48,5 @@ you will be able to open the software in question.
 sudo apt install python-pip
 ~~~
 
-***Luego sera necesario continuar con los pasos de la pagina Instrucciones ya que luego
-de tener estas herramientas listas, los pasos de ejecucion son los mismos.***
+***Then it will be necessary to continue with the steps of the Instructions page because after having these tools ready, the execution steps are the same.
+After having these tools ready, the execution steps are the same.***

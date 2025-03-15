@@ -3,11 +3,10 @@
 In this section of the documentation we will prepare our PC to start developing in Odoo using
 ROCKETDOO.
 
-***For developers who prefer to work with Windows and WSL2, as we saw in the previous page, you should already have your PC ready with all the initial tools installed.
-You should already have your PC ready with all the initial tools installed.
+***For developers who prefer to work with Windows and WSL2, as we saw in the previous page, you should already have your PC ready with all the initial tools installed.***
 
 For those who work on Linux operating systems, we will detail the necessary tools that you should have installed to get started.
-For those of you working on Linux operating systems, we will detail the necessary tools you must have installed in order to get started.
+
 
 ## Tools prior to Rocketdoo
 
@@ -41,4 +40,4 @@ sudo pip install rocketdoo
 
 ------------------------------------------------------------------------------------------------------------------
 
-¡AHORA SI PODEMOS COMENZAR! >>>>>
+NOW WE CAN GET STARTED!!! >>>>>

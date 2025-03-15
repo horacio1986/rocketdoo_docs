@@ -35,7 +35,7 @@ Enter the repository created and cloned from our **ROCKETDOO** template using th
 ~~~
 cd my-dev-on-odoo
 ~~~
-Once inside the repository, we list all the files with the command: 
+Once inside the repository, we list all the files with the command:
 
 ~~~
 ls
@@ -45,7 +45,7 @@ ls
 
 ### Step 6:
 
-In this step, we should have **ROCKETDOO** (i.e., the library) installed. If you don't, you can do so with the command:
+In this step, we should have **ROCKETDOO** (the library) installed. If you don't, you can do so with the command:
 
 ~~~
 sudo pip install rocketdoo
