@@ -1,13 +1,23 @@
-site_name: Rocketdoo
+site_name: Rocketdoo Docs
 theme: dracula
 nav:
   - Home: index.md
   - Get Started: get-started.md
+  - Windows y WSL2: windows.md
   - Instructions: instructions.md
+  - Steps: steps.md
+  - Launch Rocketdoo: launch.md
+  - Rocketdoo Structure: structure.md
+  - Private Repositories: private.md
+  - Public Repositories: public.md
   - Recommended extensions: recommend-extensions.md
+  - Command Line: command.md
   - Use Cases: use-cases.md
   - Common Mistakes: common-mistakes.md
   - Debbuging in Odoo: debbuging-odoo.md
-  - How to collaborate in the project?: collaborate.md
+  - How to collaborate in this project?: collaborate.md
   - HelpDesk: helpdesk.md
-
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: "#"
