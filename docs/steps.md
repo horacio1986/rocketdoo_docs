@@ -85,4 +85,4 @@ And this will open you up in your work area, that is, development.
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
-BUT DON'T GET TOGETHER!! WE WON'T WORK ON VS CODE YET! On the next page, we'll start with the ***ROCKETDOO*** launcher. >>>>
+BUT DON'T GET TOGETHER!! WE WON'T WORK ON VS CODE YET! On the next page, we'll start with [Lauching Rocketdoo](launch.md). >>>>

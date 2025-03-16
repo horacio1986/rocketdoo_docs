@@ -40,7 +40,7 @@ to debug code.***
 
 To create a new module with the “scaffold” command you must use it as follows:
 ~~~ 
-odoo scaffold <nombre_de_mi_modulo> .
+odoo scaffold <my_module> .
 ~~~
 
 This will create a module with the content and files needed to start developing in the directory where we are standing.
@@ -64,8 +64,10 @@ But do not worry that it is a file that will not be necessary to modify a priori
 
 As we have seen, when we launch **ROCKETDOO**, almost at the end it asks us if we want to develop in Odoo
 Community or Enterprise.
+
 OK! if our answer is *"ce ”* we will not need to do anything extra.
 Now, if our answer is *"ee ”*, that is to say Enterprise, in fact it is important that before launching
+
 Rocketdoo, we have the folder *Enterprise* in our working directory at the same level as *addons*,
 because in this way the system will be able to map the folder with the modules belonging to **Enterprise** and also perform the necessary
 configuration in the environment to be able to run this edition of Odoo.
