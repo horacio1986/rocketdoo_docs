@@ -47,6 +47,7 @@ you will be able to open the software in question.
 ~~~
 sudo apt install python-pip
 ~~~
+* Now you can continue with the [Steps](steps.md)
 
-***Then it will be necessary to continue with the steps of the Instructions page because after having these tools ready, the execution steps are the same.
-After having these tools ready, the execution steps are the same.***
+***Then it will be necessary to continue with the steps of the Instructions page because after having these tools ready,
+the execution steps are the same.***
