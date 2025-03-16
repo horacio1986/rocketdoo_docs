@@ -7,5 +7,5 @@ build:
     pre_build:
       - pip install mkdocs
       - pip install mkdocs-dracula-theme
-sphinx:
+mkdocs:
   configuration: mkdocs.yml
