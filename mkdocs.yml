@@ -1,4 +1,4 @@
-site_name: Rocketdoo Docs
+site_name: Rocketdoo
 theme: dracula
 nav:
   - Home: index.md
