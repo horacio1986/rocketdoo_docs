@@ -5,6 +5,7 @@ build:
     python: "3.10"
   jobs:
     pre_build:
-      - pip install mkdocs mkdocs-dracula
+      - pip install mkdocs
+      - pip install mkdocs-dracula-theme
 sphinx:
   configuration: mkdocs.yml
