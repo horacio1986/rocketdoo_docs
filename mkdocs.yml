@@ -17,6 +17,7 @@ nav:
   - Debbuging in Odoo: debbuging-odoo.md
   - How to collaborate in this project?: collaborate.md
   - HelpDesk: helpdesk.md
+  
 markdown_extensions:
   - admonition
   - toc:

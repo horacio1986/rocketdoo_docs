@@ -5,6 +5,8 @@ Rocketdoo is a framework developed in Python, which aims to provide a fast and e
 With Rocketdoo, you will be able to deploy in simple steps one or several environments to develop in Odoo, in all its editions and versions;
 You will be able to develop new modules or new functionalities for the Enterprise edition as well as for the Community edition.
 
+![rocketdoo-welcome](img/logo_completo.png)
+
 ## Overview
 
 This tool was designed for developers who are new to Odoo development, as well as for more experienced developers who are looking to deploy
