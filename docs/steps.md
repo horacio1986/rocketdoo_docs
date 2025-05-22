@@ -2,27 +2,31 @@
 
 ### Step 1:
 
-The first thing we must do is go to the **ROCKETDOO** repository [here](https://github.com/HDM-soft/rocketdoo)
+First, navigate to the **ROCKETDOO** repository [here](https://github.com/HDM-soft/rocketdoo).
 
-It is imperative to understand that this repository is built as a **Template**, therefore it must be used as a template and should NOT be directly cloned or forked.
+It is crucial to understand that this repository is configured as a **template**, so it should be used as such. Please do **not** clone or fork it directly.
 
 ### Step 2:
 
-Use the template to create your own development repository by clicking the *use this template* button and then *create new repository*.
-This will take you to your own GitHub account so you can begin creating your development repository.
+Use the template to create your own development repository by clicking the *Use this template* button, then selecting *Create new repository*.
+
+This will take you to your GitHub account where you can start setting up your development repository.
 
 ![rocketdoo-docs-img](img/rocketdoo-docs-paso2.png)
 
 ### Step 3:
 
-In your account, you should name your development project and, if desired, add a description.
-However, it's important that you don't select *include all branches*, as you only need the *main* branch to develop. Once ready, you decide whether the development will be private or public and click the *create repository* button.
+Within your account, give your development project a name and optionally add a description.
+
+Be sure **not** to select *Include all branches*, since you only need the *main* branch for development.
+
+Once ready, choose whether your repository will be public or private, then click the *Create repository* button.
 
 ![rocketdoo-docs-img](img/rocketdoo-docs-paso3.png)
 
 ### Step 4:
 
-Once the repository is created, you can clone it by copying the *URL* or *SSH* link
+After your repository is created, clone it by copying either the *HTTPS* or *SSH* URL.
 
 ![rocketdoo-img-4](img/rocketdoo-docs-paso4.png)
 
@@ -30,12 +34,13 @@ Once the repository is created, you can clone it by copying the *URL* or *SSH* l
 
 ### Step 5:
 
-Enter the repository created and cloned from our **ROCKETDOO** template using the command:
+Navigate into your newly created and cloned repository using the command:
 
 ~~~
 cd my-dev-on-odoo
 ~~~
-Once inside the repository, we list all the files with the command:
+
+Once inside, list the files with:
 
 ~~~
 ls
@@ -45,17 +50,17 @@ ls
 
 ### Step 6:
 
-In this step, we should have **ROCKETDOO** (the library) installed. If you don't, you can do so with the command:
+Make sure the **ROCKETDOO** package is installed. If not, install it by running:
 
 ~~~
 sudo pip install rocketdoo
 ~~~
 
-After making sure you have **ROCKETDOO** installed correctly ***(If the terminal generates an error when you try to install ROCKETDOO or another library, we will see how to solve it in the "Common Mistakes" section)***
+*(If you encounter errors during installation, please refer to the "Common Mistakes" section for troubleshooting.)*
 
 ### Step 7:
 
-Install the requirements from the ***requirements.txt*** document
+Install the dependencies listed in the ***requirements.txt*** file:
 
 ~~~
 sudo pip install -r requirements.txt
@@ -63,7 +68,7 @@ sudo pip install -r requirements.txt
 
 ### Step 8:
 
-Now you should enter the **rocketdoo** subdirectory, meaning you'll be located at ***my-dev-on-odoo/rocketdoo***
+Change directory into the **rocketdoo** subfolder, so your path is ***my-dev-on-odoo/rocketdoo***:
 
 ~~~
 cd rocketdoo
@@ -73,16 +78,18 @@ cd rocketdoo
 
 ### Step 9:
 
-In this step, you can open Visual Studio Code with the command:
+Open Visual Studio Code in the current directory by running:
 
 ~~~
 code .
 ~~~
 
-And this will open you up in your work area, that is, development.
+This will launch VS Code in your development workspace.
 
 ![rocketdoo-img-9](img/rocketdoo-docs-paso9.png)
 
--------------------------------------------------------------------------------------------------------------------------------------------
+---
 
-BUT DON'T GET TOGETHER!! WE WON'T WORK ON VS CODE YET! On the next page, we'll start with [Lauching Rocketdoo](launch.md). >>>>
+🚫 **Hold on!**
+
+We are not starting development in VS Code just yet. On the next page, we will begin with [Launching Rocketdoo](launch.md).

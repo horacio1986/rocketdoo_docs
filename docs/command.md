@@ -1,26 +1,26 @@
 # Command Line
 
-Know the most common commands you can use in **ROCKETDOO**.
+Here are the most common commands you can use in **ROCKETDOO**.
 
-* With this command you start the framework.
+* Start the framework:
 
 ~~~
 rocketdoo
 ~~~
 
-* To raise the environment once the launcher is finished.
+* Start the environment after the launcher finishes:
 
 ~~~
 docker compose up
 ~~~
 
-Then with this variant you can deploy the environment without seeing the log result in the terminal.
+* Start the environment in detached mode (without showing logs in the terminal):
 
 ~~~
 docker compose up -d
 ~~~
 
-* How to get the *sudo* permissions in docker.
+* Grant Docker permissions without using *sudo*:
 
 ~~~
 sudo groupadd docker
@@ -30,94 +30,90 @@ sudo groupadd docker
 sudo usermod -aG docker $USER
 ~~~
 
-With this you should be able to run docker without sudo.
-
-If it doesn't work you can try these commands.
+After this, you should be able to run Docker commands without *sudo*.  
+If it doesn't work immediately, try:
 
 ~~~
 sudo newgrp docker
 sudo usermod -aG docker $USER
 ~~~
 
-* Pause containers.
+* Pause all containers:
 
 ~~~
 docker compose pause
 ~~~
 
-* Unpause containers.
+* Unpause all containers:
 
 ~~~
 docker compose unpause
 ~~~
 
-* Brake the containers.
+* Stop all containers:
 
 ~~~
 docker compose stop
 ~~~
 
-* Pause or brake a particular container.
+* Pause or stop a specific container:
 
 ~~~
 docker container pause <container-name> 
 docker container stop <container-name>
 ~~~
 
-* Re-initialize containers.
+* Restart containers:
 
 ~~~
 docker compose restart
 ~~~
 
-* Delete containers.
+* Remove containers:
 
 ~~~
 docker compose down
 ~~~
 
-* Remove the containers with their volumes.
+* Remove containers and their associated volumes:
 
 ~~~
 docker compose down -v
 ~~~
 
-* Force a rebuild of your environment.
+* Force a rebuild of the environment:
 
 ~~~
 docker compose up --build
 ~~~
 
-* Know the status of your containers.
+* Check the status of your containers:
 
 ~~~
 docker compose ps
 ~~~
 
-* List the images constructed.
+* List all Docker images:
 
 ~~~
 docker image ls
 ~~~
 
-* Delete an image.
+* Remove a Docker image:
 
 ~~~
 docker rmi <image-name>
 ~~~
 
-* Clean your PC of images and content that you no longer use in docker.
+* Clean your system by removing unused Docker images and data:
 
 ~~~
 docker system prune
 ~~~
 
-* Massively update module packages loaded as public repositories with Gitman.
-Gitman.
-
-This must be done inside the container.
+* Update all module packages loaded as public repositories using Gitman:  
+(This command must be run inside the container.)
 
 ~~~
 gitman update
 ~~~
-

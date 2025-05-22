@@ -1,53 +1,52 @@
 ## Windows and WSL2
 
-Certainly we will not see step by step how to install WSL2 on Windows, since the internet is full of guides.
-Even the official Windows website has a step by step guide on how to install WSL2 on your computers.
+We will not cover step-by-step instructions for installing WSL2 on Windows, as the internet is full of guides.  
+Even the official Windows website provides a step-by-step tutorial on how to install WSL2 on your machine.
 
 [Official WSL2 Guide](https://learn.microsoft.com/en-us/windows/wsl/install)
 
-But what we will address are some recommendations on how to use this tool to be able to develop with Rocketdoo and WLS2
-to develop with Rocketdoo and VSCode.
+However, we will share some recommendations on how to use this tool to develop with Rocketdoo and VSCode.
 
-Assuming you already have WSL2 installed on your computer, properly configured with sudo access to the user you created.
-Let's continue with some necessary steps to get our machine ready to develop with Rocketdoo and VSCode.
+Assuming you already have WSL2 installed on your machine, properly configured with sudo access for the user you created,  
+let’s continue with the necessary steps to prepare your machine for development with Rocketdoo and VSCode.
 
-Remember that you can use any Linux distribution,
-although for daily use we suppose that Ubuntu 20/22/24.04 or Debian 11/12 should be able to handle it.
+Keep in mind that you can use any Linux distribution,  
+although for daily use we recommend Ubuntu 20/22/24.04 or Debian 11/12.
 
-## Necessary Steps:
+## Required Steps:
 
-1. Enter the WLS2 terminal.
-2. Update Linux packages:
+1. Open the WSL2 terminal.
+2. Update the Linux packages:
 
 ~~~ 
 sudo apt update
 ~~~
 
-3. Install git:
+3. Install Git:
 
 ~~~
 sudo apt install git -y
 ~~~
 
-4. Install Visual Studio Code, inside WSL2:
+4. Install Visual Studio Code inside WSL2:
 
 ~~~
 sudo apt install code
 ~~~
 
-5. After having installed VSCode, with the command :
+5. After installing VSCode, you can open it with the command:
 
 ~~~
-code . 
+code .
 ~~~
-you will be able to open the software in question.
 
-6. Finally it is important to verify that you have installed “pip”, if not install it.
+6. Lastly, make sure that “pip” is installed. If it’s not, install it:
 
 ~~~
 sudo apt install python-pip
 ~~~
+
 * Now you can continue with the [Steps](steps.md)
 
-***Then it will be necessary to continue with the steps of the Instructions page because after having these tools ready,
-the execution steps are the same.***
+***Once these tools are set up, you can continue with the steps on the Instructions page,  
+as the execution process is the same from that point on.***

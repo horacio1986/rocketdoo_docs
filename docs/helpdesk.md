@@ -1,10 +1,10 @@
 # Help Desk
 
-If you have any problems using **ROCKETDOO** you can create a support ticket and submit a description of your problem; we will review that ticket in order to provide a solution.
+If you encounter any issues while using **ROCKETDOO**, you can create a support ticket by submitting a detailed description of your problem. Our team will review the ticket and provide assistance to resolve your issue.
 
-On our website, you can go to the link below and follow the steps to create a user and generate a support ticket.
+To create a user account and submit a support ticket, please visit the link below and follow the instructions:
 
-[Link Help Desk](https://odoo.hdmsoft.com.ar/mesa-de-ayuda)
+[Help Desk Link](https://odoo.hdmsoft.com.ar/mesa-de-ayuda)
 
 ---------------------------
 

@@ -1,27 +1,26 @@
 # Recommended Extensions for Visual Studio Code
 
-In this section we will make a list of the extensions that we recommend to use, both the basic ones, and those that we know will provide better
-options to work more comfortably in VSCode and avoid the use of the terminal or complex concepts in Docker.
+In this section, we list the extensions we recommend using in Visual Studio Code—both essential ones and others that will improve your workflow.  
+These tools help make development more efficient and minimize the need to use the terminal or deal with complex Docker concepts.
 
-Although later on, we will share the commands that will be useful to deepend in the use of
-environment and tools like *Docker* and *Gitamn*.
+Later in the documentation, we’ll also provide useful commands to go deeper into tools like *Docker* and *Gitman*.
 
-## Basic and Necessary Extensions
+## Basic and Essential Extensions
 
-1. Docker (Microsoft Official)
-2. Dev Containers (Microsoft)
+1. Docker – Microsoft (Official)
+2. Dev Containers – Microsoft
 
 ![rocketdoo-img-basic-extensions](img/rocketdoo-docs-basic-extensions.png)
 
-## More Extensions
+## Additional Recommended Extensions
 
-* Auto Close Tag - Jun Han
-* GitLens - GitKraken
-* Odoo Ide - Trinh Anh Ngoc (esto es lo mejor del mundo al menos en odoo 16)
-* Odoo shorcuts - mvintg
-* Odoo Snippets - Droggol
-* Prettier Code formater - Prettier
-* Python Indent - Kevin Rose
-* XML - Red Hat
-* XML Formatter - Fabian Lauer
-* XML Tools - Josh Johnson
+- **Auto Close Tag** – Jun Han  
+- **GitLens** – GitKraken  
+- **Odoo IDE** – Trinh Anh Ngoc *(highly recommended, especially for Odoo 16)*  
+- **Odoo Shortcuts** – mvintg  
+- **Odoo Snippets** – Droggol  
+- **Prettier - Code Formatter** – Prettier  
+- **Python Indent** – Kevin Rose  
+- **XML** – Red Hat  
+- **XML Formatter** – Fabian Lauer  
+- **XML Tools** – Josh Johnson
