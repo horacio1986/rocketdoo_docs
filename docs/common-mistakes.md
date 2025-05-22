@@ -1,63 +1,58 @@
 # Common Mistakes
 
-In this section we will reveal some of the most common errors when using the development environment
+In this section, we highlight some of the most frequent errors encountered when using the development environment.
 
-***We also invite the users of this Framework, through our Help Desk, to send us incidents and bugs that are not present in this document, so that we can update and review each particular case.***
+***We also encourage users of this framework to report any incidents or bugs not covered here via our Help Desk, so we can update and review each case accordingly.***
 
-* First of all, we want to reemphasize that the repository of **ROCKETDOO** IS NOT CLONED!
-A FORK!... The only way to use it is to create a new repository from the template.
+* First and foremost, we want to emphasize that the **ROCKETDOO** repository is NOT CLONED but FORKED! The only way to use it is by creating a new repository from the template.
 
-## Failed to install the *requirements.txt*.
+## Failed to Install *requirements.txt*
 
 ![rocketdoo-img-failreq](img/rocketdoo-docs-fail-require.png)
 
-Faced with this error, the system suggests working with Python virtual environments, which is an excellent option.
-However if you still want to install the requirements on your pc without a virtual environment
-you can solve with this command:
+When faced with this error, the system suggests using Python virtual environments, which is an excellent approach. However, if you prefer to install the requirements on your PC without a virtual environment, you can resolve it with the following command:
 
 ~~~
 pip3 install -r requirements.txt --break-system-packages
 ~~~
 
-Now if you want to use a virtual environment, you should do it this way:
+If you want to use a virtual environment, execute:
 
 ~~~
 python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt
 ~~~
 
-## Failure to install ROCKETDOO
+## Failure to Install ROCKETDOO
 
-The same as trying to install the requirements can happen with the installation of the framework
+Similar issues may occur during the framework installation:
 
 ![rocketdoo-img-fail2](img/rocketdoo-docs-fail-rocketdoo.png)
 
-Solution: 
+Solution:
 
 ~~~
 pip3 install rocketdoo --break-system-packages
 ~~~
 
-## Launching ROCKETDOO in the wrong place
+## Launching ROCKETDOO from the Wrong Directory
 
-It is very common that you want to launch **ROCKETDOO** in the main root path of the project; for example,
-as you can see in the image, you try to launch from the root path of the repository you created
-*my-dev-on-odoo* when really it should be launched inside the *rocketdoo* folder, that is to say in :
+It is common to attempt launching **ROCKETDOO** from the project's root directory; for example, as shown in the image, launching from the root of your created repository (*my-dev-on-odoo*) when it should actually be run inside the *rocketdoo* subfolder:
+
 *my-dev-on-odoo/rocketdoo*
 
 ![rocketdoo-img-fail3](img/rocketdoo-docs-fail-launch.png)
 
-To exit this conflict, it is necessary to press the keys **CTRL + C** and with this cancel the action
-and then move to the correct directory:
+To resolve this, press **CTRL + C** to cancel the current action, then navigate to the correct directory and launch again:
 
 ~~~
 cd rocketdoo
 rocketdoo
 ~~~
 
-Once done correctly we should see the following presentation image **ROCKETDOO**
+If done correctly, you should see the **ROCKETDOO** welcome screen as below:
 
 ![rocketdoo-img-main](img/rocketdoo-main.png)
 
----------------------------------------------------------------------------------------------------
-   
-For further assistance please send your ticket to our [Help Desk](https://odoo.hdmsoft.com.ar/mesa-de-ayuda)
+---
+
+For further assistance, please submit a ticket to our [Help Desk](https://odoo.hdmsoft.com.ar/mesa-de-ayuda)

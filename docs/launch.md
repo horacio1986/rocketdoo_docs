@@ -1,106 +1,95 @@
 # Launching ROCKETDOO
 
-Now we start ***ROCKETDOO*** by running its launcher with the command:
+Now we can start ***ROCKETDOO*** by launching its CLI with the following command:
 
 ~~~
 rocketdoo
 ~~~
 
-This will open its interactive CLI screen; it will welcome us and after pressing ***ENTER*** it will start asking for information to create our environment.
+This will open its interactive CLI screen. It will greet us, and after pressing ***ENTER***, it will begin asking for the necessary information to create our development environment.
 
 ![rocketdoo-main](img/rocketdoo-main.png)
 
-## What does Rocketdoo ask us?
+## What does Rocketdoo ask for?
 
-This is a series of questions that the framework will ask us in order to build our development environment according to our needs.
+The CLI will present a series of questions that help configure your development environment according to your needs:
 
-* Odoo version
-* Name of our project
-* Postgresql version
-* Name of our database container
-* Master Password
-* Name of the image to build
-* Name of the Odoo web container
-* Odoo Port
-* Port of Vs Code
-* If we want the containers to restart by themselves, and in what way
+* Odoo version  
+* Project name  
+* PostgreSQL version  
+* Database container name  
+* Master password  
+* Name of the Docker image to build  
+* Name of the Odoo web container  
+* Odoo port  
+* VS Code port  
+* Whether the containers should auto-restart, and how
 
-After this, it will ask us the following questions:
+After that, you’ll be asked:
 
-* In which Odoo edition we are going to develop, either Community “ce” or Enterprise “ee”.
-* If we will use private repositories
-* If we will use third party repositories
-    * URL of the third party repository
-    * Version of the repo
-    * What we will name that repository
-    * ... And then if you want to continue uploading more third party repositories or not.
+* Which Odoo edition you’re using: Community (“ce”) or Enterprise (“ee”)  
+* If you’ll be using private repositories  
+* If you’ll be using third-party repositories:
+    * Repository URL  
+    * Repository version  
+    * Local name for that repository  
+    * ...and whether you want to continue adding more third-party repositories
 
-We consider that it will not be necessary to go through every question that Rocketdoo will ask us, since in that process
-provides us with default options, as well as suggestions.
+We won’t go through every question here, as Rocketdoo already provides helpful defaults and suggestions throughout the process.
 
----------------------------------------------------------------------------------------------------------------
+---
 
 ## Tips
 
-What is important to note are the following guidelines for use:
+The following usage guidelines are important to keep in mind:
 
-1. First of all it is necessary that we know that the name of the web container “Odoo”, the name of the database container “Postgresql” and the name of our project, should not be the same or repeated each other if we have already created a development project previously.
+1. The names you assign to the Odoo web container, the PostgreSQL container, and your project should all be unique.  
+   Do **not** reuse names if you’ve previously created another development project.
 
-Since if we repeat it in another occasion, when we are about to raise our project, docker will give us an error
-informing us that those containers already exist.
+   If you repeat a name and try to launch the project, Docker will return an error stating that the containers already exist.
 
-If you have this case, you will have to cancel the operation with the keys ***CTRL + C*** and to execute again
-Rocketdoo.
+   In such a case, press ***CTRL + C*** to cancel the operation and re-run Rocketdoo.
 
-2. The same happens with the Odoo and VSCode ports; they should not be repeated in another project, in order to make it easier to have more
-than one development environment running at the same time.
+2. Similarly, do not reuse the same Odoo or VS Code ports across multiple projects.  
+   This ensures that you can run multiple environments at the same time without conflict.
 
-That is to say, if in our first project we assign the default port **8069** in a new project we will use a different one, e.g.: **8169**.
-This same case is recommended for the VSCode port.
+   For example, if your first project uses port **8069**, you can use **8169** for the next one. The same rule applies to the VS Code port.
 
-3. Once we finish the development or the use of one of the environments, we can stop the whole project and even delete traces of it with
-and even remove traces of it with the command:
+3. Once you're done working on a development environment, you can stop it or even remove all related resources using the following commands:
 
+To stop the containers:
 ~~~
 docker compose stop
 ~~~
-To stop the containers.
 
-or this command to remove the entire contents with the volumes:
-
+To remove the containers and associated volumes:
 ~~~
 docker compose down -v
 ~~~
 
-Once this action is done, now if the ports they occupied will be free to be used in new development environments.
+This will free up the ports, making them available for other development environments.
 
-------------------------------------------------------------------------------------------------------------------
+---
 
-*** If you choose to develop in Odoo Enterprise, be careful before using the launched ROCKETDOO, to put
-the *Enterprise* folder in the working directory at the level of *addons*.***
+***If you're working with Odoo Enterprise, make sure to place the *Enterprise* folder inside the working directory at the same level as *addons* before launching ROCKETDOO.***
 
--------------------------------------------------------------------------------------------------------------------
+---
 
-## All done!
+## All Done!
 
-Once we have finished the questions that Rocketdoo asks us, we will be able to definitively launch our environment
-with the command:
+After answering Rocketdoo's questions, you can launch your environment by running:
 
 ~~~
 docker compose up
 ~~~
 
-*Note that this step requires a long time between 1min and 8min depending on the amount of third party repositories we have loaded.
-And this is because our framework will clone the repositories and copy that information to the
-inside the web container, install all the requirements that each repository has, as well as
-downloading the official Odoo and Postgresql images to your machine.
-Although this particular action is a one-time only action.*
+*Note: This step may take anywhere from 1 to 8 minutes depending on the number of third-party repositories you've added.
+During this time, Rocketdoo will clone the repositories, copy them into the web container, install all required dependencies, and download the official Odoo and PostgreSQL Docker images.*
 
-Once Rocketdoo has finished creating the environment and we see the Odoo log running, we can log in with our browser of choice, and start creating our first database.
+Once the setup is complete and the Odoo logs are running, you can access your Odoo instance by visiting:
 
 ~~~
 http://localhost:8069
 ~~~
 
-Then you can start to install the modules you need, and you can verify that you will have at your disposal the third party modules or
-module packages that you have loaded during the launch process.
+From there, you can create your first database, install the required modules, and start working with the third-party packages you selected during setup.

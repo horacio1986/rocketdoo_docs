@@ -1,29 +1,26 @@
 # Rocketdoo Structure
 
-In this section we will see with a little more clarity how Rocketdoo's structure is conformed, and in this way we will be able to give clarity
-on how it works from the back, or at least to understand the importance and the use of some folders and files of Rocketdoo.
+In this section, we’ll gain a clearer understanding of Rocketdoo’s structure. This will help us comprehend how it works behind the scenes and highlight the importance and usage of certain folders and files within Rocketdoo.
 
 ![rocketdoo-img-structure](img/rocketdoo-docs-structure.png)
 
-As you can see in the image there is a long list of folders and files that comprise the entire Rocketdoo structure.
-However, we will detail the folders and files of importance for a developer.
+As shown in the image, there is a long list of folders and files that make up the complete Rocketdoo structure.  
+However, we will focus on the folders and files that are most relevant for developers.
 
-These folders and files are of knowledge or should be of knowledge for any Odoo developer.
+These directories should be familiar to any Odoo developer.
 
-----------------------------------------------------------------------------------------------------------
+---
 
 ## /Addons
 
-First, we will mention the **addons** folder.
+Let’s begin with the **addons** folder.
 
-Once our environment is ready and inside Visual Studio Code, or from the terminal, as you prefer to handle it,
-you will use this folder to host the developments that you are about to make. As well as maybe some modules
-necessary for you (individual modules).
+Once your environment is set up, whether you're working in Visual Studio Code or directly from the terminal, this is the folder where you’ll place your custom developments, including any standalone modules you may need.
 
-For this, you can use to create a folder with the name of your module to be developed and the necessary content of it,
-or by using the VSCode extension **Docker** you can open a terminal with the option
-*attach shell* and move to the directory where the modules are located */usr/lib/python/dist-packages/odoo/extra-addons*
-and use Odoo's **scaffold** command to create a new module.
+You can either manually create a folder with the name of your module and add its contents, or use the **Docker** extension in VSCode. By selecting the *Attach Shell* option, you can open a terminal and navigate to the directory where modules are located:  
+`/usr/lib/python/dist-packages/odoo/extra-addons`.
+
+There, you can use Odoo’s **scaffold** command to generate a new module.
 
 ![rocketdoo-img-attach](img/rocketdoo-docs-attach.png)
 
@@ -33,41 +30,44 @@ and use Odoo's **scaffold** command to create a new module.
 
 ![rocketdoo-img-shell2](img/rocketdoo-docs-shell2.png)
 
-***It is important to note that the “addons” folder inside our development container is mapped and created as volume
-in the “extra-addons” folder, this is why we must go to that folder inside the container. Since as you know
-the folder named addons belongs to the Odoo core, and this we will see more clearly when we enter the container
-to debug code.***
+> **Note:** The “addons” folder inside our development container is mapped as a volume to the “extra-addons” directory.  
+> This is why you must navigate to that folder inside the container.  
+> Remember, the original `addons` folder belongs to the Odoo core, which will be clearer once we start debugging inside the container.
 
-To create a new module with the “scaffold” command you must use it as follows:
-~~~ 
-odoo scaffold <my_module> .
+To create a new module using the `scaffold` command, run:
+
 ~~~
 
-This will create a module with the content and files needed to start developing in the directory where we are standing.
+odoo scaffold <my_module> .
 
-After creating it, we can also see in VSCode that the same module is now present in our working directory, inside the **addons** folder.
+~~~
 
-***Remember that the “addons” folder in our working directory, inside Odoo and the container is called “extra-addons ”***.
+
+This will create a module with the essential files and structure required to begin development in the current directory.
+
+Once created, you’ll also see the new module appear in your working directory inside the **addons** folder in VSCode.
+
+> **Reminder:** The `addons` folder in your working directory is referred to as `extra-addons` inside the Odoo container.
+
+---
 
 ## /Config/odoo.conf
 
-This directory and file in question **odoo.conf** is a knowledge file especially for experienced Odoo developers.
+The **odoo.conf** file, located in the **/config/** directory, is especially important for experienced Odoo developers.
 
-In this file is stored the complete configuration of the system at the server level.
-In this file the mapping of third party and developed modules is managed, as well as the configuration of the Master Password,
-the path to the log file, etc.
+This file contains the full server-level configuration for the system.  
+It handles the mapping of third-party and custom modules, the configuration of the master password, the path to the log file, and more.
 
-But do not worry that it is a file that will not be necessary to modify a priori, because during the launch of
-**This file is self-configured with the framework.
+That said, you typically won’t need to manually modify this file, as it is automatically generated and configured by the framework during startup.
+
+---
 
 ## Enterprise
 
-As we have seen, when we launch **ROCKETDOO**, almost at the end it asks us if we want to develop in Odoo
-Community or Enterprise.
+As you’ve seen, when launching **ROCKETDOO**, near the end of the process you are asked whether you want to develop with the Odoo Community or Enterprise edition.
 
-OK! if our answer is *"ce ”* we will not need to do anything extra.
-Now, if our answer is *"ee ”*, that is to say Enterprise, in fact it is important that before launching
+If your answer is `"ce"` (Community Edition), no extra steps are required.
 
-Rocketdoo, we have the folder *Enterprise* in our working directory at the same level as *addons*,
-because in this way the system will be able to map the folder with the modules belonging to **Enterprise** and also perform the necessary
-configuration in the environment to be able to run this edition of Odoo.
+However, if your answer is `"ee"` (Enterprise Edition), it's important to ensure that the **Enterprise** folder is present in your working directory at the same level as the **addons** folder **before** launching Rocketdoo.
+
+This allows the system to map the Enterprise modules correctly and configure the environment accordingly to support this edition of Odoo.

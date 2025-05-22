@@ -1,22 +1,23 @@
 # Use Cases
 
-In this section of the documentation we will make some video guides, with the objective of putting into practice the most common use cases.
+In this section of the documentation, we provide video guides aimed at demonstrating the most common use cases in practice.
 
-First of all you can review our Introductory video to the use of **ROCKETDOO**.
+First, you can watch our introductory video on how to use **ROCKETDOO**.
 
 ## ROCKETDOO Introduction
 
 <iframe width="560" height="315" 
 src="https://www.youtube.com/embed/VccIASO750A" 
-title="RocketDoo Ambiente automatizado para desarrollos en Odoo" frameborder="0" 
+title="RocketDoo: Automated Environment for Odoo Development" frameborder="0" 
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
-------------------------------
 
-## How to develop in Rocketdoo, with an Enterprise Edition of Odoo?
+---
+
+## How to Develop with Rocketdoo Using the Enterprise Edition of Odoo?
 
 <iframe width="560" height="315" 
 src="https://www.youtube.com/embed/ArW21MQNZBA" 
-title="Develop on Enterprise Edition with ROCKETDOO" frameborder="0" 
+title="Developing on Enterprise Edition with ROCKETDOO" frameborder="0" 
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
