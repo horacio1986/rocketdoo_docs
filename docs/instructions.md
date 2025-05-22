@@ -1,43 +1,42 @@
 # Instructions for Use
 
-In this section of the documentation we will prepare our PC to start developing in Odoo using
-ROCKETDOO.
+In this section of the documentation, we will prepare our computer to start developing in Odoo using  
+**ROCKETDOO**.
 
-***For developers who prefer to work with Windows and WSL2, as we saw in the previous page, you should already have your PC ready with all the initial tools installed.***
+***For developers who prefer to work with Windows and WSL2, as mentioned on the previous page, your system should already be ready with all the initial tools installed.***
 
-For those who work on Linux operating systems, we will detail the necessary tools that you should have installed to get started.
+For those working on Linux-based operating systems, we will outline the essential tools you need to have installed before getting started.
 
+## Tools required before Rocketdoo
 
-## Tools prior to Rocketdoo
-
-1. Keep Linux packages updated.
-2. Install or verify that you have GIT installed.
+1. Keep your Linux packages up to date.
+2. Ensure Git is installed or check if it is already installed:
 
 ~~~
 git --version
 ~~~
 
-or install:
+Or install it:
 
 ~~~
 sudo apt install git -y
 ~~~
 
-3. Have Visual Studio Code installed
-4. Have installed the Python package manager “pip”.
-5. Install Docker and Docker Compose using the official guide shared on the “Get Started” page.
-6. Install in VSCode the basic extensions
+3. Have Visual Studio Code installed.  
+4. Ensure Python’s package manager `pip` is installed.  
+5. Install Docker and Docker Compose using the official guide shared in the **Get Started** page.  
+6. Install the basic VSCode extensions:
     - Docker
     - Dev Container
 
-And the most important thing is to install the ROCKETDOO library:
+And most importantly, install the ROCKETDOO library:
 
 ~~~
 sudo pip install rocketdoo
 ~~~
 
-[Official Rocketdoo](https://pypi.org/project/rocketdoo/)
+[Official Rocketdoo on PyPI](https://pypi.org/project/rocketdoo/)
 
-------------------------------------------------------------------------------------------------------------------
+---
 
 NOW WE CAN GET STARTED!!! >>>>>

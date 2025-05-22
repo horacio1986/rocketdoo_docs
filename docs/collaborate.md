@@ -1,28 +1,23 @@
-# How to collaborate in this project?
+# How to Collaborate on This Project?
 
-This project has been created with much more passion and desire to provide a valuable tool for the Odoo developer, than with strong Python programming skills.
+This project was created with more passion and dedication to providing a valuable tool for Odoo developers than with advanced Python programming skills.
 
-That's why we consider that any suggestion of improvement or contribution to the functionalities of this Framework,
-are not only welcome, but we are also inviting those who wish to contribute
-to help this Framework keep growing, have a place in **ROCKETDOO**.
-----------------------------------------------------
+Therefore, any suggestions for improvements or contributions to the functionalities of this framework are not only welcome but highly encouraged. We invite anyone willing to contribute to help **ROCKETDOO** grow and thrive.
 
-To be able to contribute with improvements in the **ROCKETDOO** repository it is necessary that you make a FORK to the
-repo, and after that every contribution must be done in a new branch with description of the change you want to make and contribute;
-following the conventions and good practices in the creation of branches. That is to say
-using prefixes to define the change you want to make.
+---
 
-Example:
+To contribute improvements to the **ROCKETDOO** repository, you must first create a FORK of the repo. All contributions should then be made in a new branch that clearly describes the change you intend to make, following branch naming conventions and best practices. Specifically, use prefixes to indicate the type of change:
 
-* FEAT: (for new features)
-* UPD: (upgrade)
-* FIX: (fix a bug)
-* WIP: (work in progress)
-* DEL: (remove some functionality or part of the code)
-And so on with every action and change to be made.
+Examples:
 
-Keep in mind also that once the change is done, it is necessary to make a commit with a description in order to make a Pull Request.
+* **FEAT:** (for new features)  
+* **UPD:** (for upgrades or updates)  
+* **FIX:** (to fix bugs)  
+* **WIP:** (work in progress)  
+* **DEL:** (to remove functionality or code)  
 
-The PR must be approved, after reviewing the code and the detailed description of the developer to the branch
-developer's code and then we have to merge them to the *develop* branch to get a test about this change and, if
-the change it's aproved, after that make a merge to the *main* branch.
+And so on, depending on the nature of the change.
+
+Once your changes are complete, create a commit with a clear description and then open a Pull Request (PR).
+
+The PR will be reviewed, and if approved, merged into the *develop* branch for testing. After successful testing and approval, it will be merged into the *main* branch.

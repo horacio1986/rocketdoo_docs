@@ -1,41 +1,33 @@
 # Private Repositories
 
-If you, during the launch of **Rocketdoo** decide to use a private repository, and you tell the launcher that
-and indicate it to the launcher.
+If, during the launch of **Rocketdoo**, you choose to use a private repository and indicate this to the launcher,  
+you’ll need to follow the guidelines below.
 
-You will need to consider the following guidelines:
+## Why Use a Private Repository?
 
-## Why use a Private Repository?
+This functionality is intended for developments created for a specific client or for commercial purposes.
 
-This function is for the developments that you or your company have destined for a particular client or for commercial
-in particular or intended to be commercialized.
+As you may know, if a development is intended for commercialization, it must reside in a **private** GitHub repository.
 
-We know that if a development is intended to be commercialized, it is necessary that in our
-GitHub repository, it must be private.
+Rocketdoo helps with this by reading the hidden `*.ssh/*` folder in your system user directory and displaying any available SSH keys it finds there.  
+To use this functionality, you must have already created one or more SSH keys and added them as access keys in your GitHub account.
 
-So what this functionality does, is to read in the directory of your system user,
-look for the hidden folder *.ssh/* and show on screen the SSH keys that you have in that location.
-For this it is necessary that previously you in addition to have created one or more keys
-SSH keys are configured as access keys in your *GitHub* account.
+Once Rocketdoo reads and displays your SSH keys,  
+you’ll be prompted to choose which one to use.
 
-Once **Rocketdoo** has read and displayed the SSH keys you have,
-you will be the one to decide which key to use.
+It will list and number all your available SSH keys so that you can select the appropriate one by its corresponding number.
 
-Rocketdoo will list and enumerate all the SSH keys you have and you will be able to decide
-which key to use based on the number that corresponds to your key.
+## Are My SSH Keys Secure?
 
-## My SSH keys, are they secure?
+SSH keys are a secure, encrypted method for connecting remotely to your repository.  
+They provide a robust layer of protection when working with private repositories.
 
-As we know, SSH keys are an encrypted tool that allows us to connect remotely to our repository,
-and therefore they provide security when working with private repositories.
+It’s important for developers to know that their keys are safe within our automated development environment.  
+*Rocketdoo* maps your SSH key only inside the Odoo development container (the web container).
 
-Faced with this reality, it is important for the developer to know that his keys are secure in our automated development environment,
-*Rocketdoo* is only in charge of mapping your SSH key only within the Odoo development container (in the web container),
-which, as we know, in the first instance its development environment is local and moreover each container is ephemeral,
-therefore all the information inside each container will be ephemeral and removable if you wish.
+This container is local by default, and each container is **ephemeral**—meaning all data inside it is temporary and can be discarded at any time.
 
-Also this content is not mapped in git, so when you commit and push,
-when you commit and push, this information will not travel to your remote repository.
+Additionally, SSH key data is not tracked by Git. So when you commit and push code, this information is **not** sent to your remote repository.
 
-Finally, if you choose to use a private repository, when you finish the launcher of our *Rocketdoo* environment,
-you will see that in your development directory, a *.ssh/* folder has been created where the selected key will be stored.
+Lastly, if you choose to use a private repository, Rocketdoo will create an `*.ssh/*` folder inside your development directory,  
+where the selected SSH key will be stored after the launcher finishes setting up your environment.

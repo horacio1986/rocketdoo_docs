@@ -1,116 +1,90 @@
 # Get Started
 
-Before we launch our environment, we'll review the tools you need to get started without worry.
+Before launching your development environment, let’s go over the tools you’ll need to get started confidently.
 
-## Tools Needed
+## Required Tools
 
-1. Operating System: 
-    - Linux, recommended distributions “Ubuntu” or “Debian”.
-    - Windows 10/11 (more on how to use Rocketdoo with Windows later).
-2. Terminal CLI
-3. Python installed (you can use Python virtual environments to work more securely). 
-4. Install or have GIT installed in the terminal.
-5. An account in GITHUB
-6. Generate an SSH key on your machine and then configure it in your GITHUB account.
-7. Install Docker and Docker Compose
-8. GITMAN (it is installed by default in the container).
-9. Install Visual Studio Code
-10. Necessary extensions of Visual Studio Code:
-    - Dev Container
-    - Docker
+1. Operating System:  
+    - Linux (recommended distributions: Ubuntu or Debian)  
+    - Windows 10/11 (we’ll cover how to use Rocketdoo with Windows later)  
+2. CLI Terminal  
+3. Python installed (using virtual environments is highly recommended)  
+4. GIT installed in your terminal  
+5. A GitHub account  
+6. An SSH key generated on your machine and added to your GitHub account  
+7. Docker and Docker Compose installed  
+8. GITMAN (installed by default in the container)  
+9. Visual Studio Code  
+10. Required Visual Studio Code extensions:  
+    - Dev Container  
+    - Docker  
 
-These extensions are the basic and fundamental ones, but later we will detail some more that will be very useful.
+These are the essential extensions. We’ll recommend a few more useful ones later.
 
-## Remarks
+## Notes
 
-Although this list of necessary tools may be a bit scary for a developer with little experience or knowledge, don't panic!,
-because our automated environment “Rocketdoo” will manage everything for you and
-in an effective and efficient way; without the need for you to learn how to use each and every one of these tools.
+Although this list might seem overwhelming to less experienced developers — don’t worry!  
+Rocketdoo automates and handles everything for you efficiently, so you don’t need to master every tool beforehand.
 
-You only need to know how to handle the basics and fundamentals of a developer, tools such as, Git,
-GitHub and Visual Studio Code.
+You only need a basic understanding of tools like Git, GitHub, and Visual Studio Code.
 
-Although it would clearly be a plus if you can understand and manage for example Docker. However, it is not
-necessary at all, and you will see it more clearly when we start the step by step.
+Knowing Docker is definitely a plus, but it’s not a requirement — you’ll see just how easy it is when we start the step-by-step setup.
 
+## Why Use Docker?
 
-## Why use Docker? 
+Docker is a global standard used by software development teams who value consistency and reliability across environments.
 
-Docker is a worldwide tool for every software development company that understands the seriousness of working in a contained and prepared
-with the maximum conditions necessary for our development to be 100% functional.
-As it is well known, working in Docker provides us with the reliability of knowing that our developments will run properly in any
-environment and browser that we use and that the client uses.
-With this we avoid the famous phrase:
+With Docker, you can be confident that your development will behave the same way across different systems, operating systems, and browsers — both yours and your client’s.
 
-> “On my machine if it works”.
+It helps eliminate the dreaded phrase:
 
-Besides saving us these user/developer issues, with Docker we will use the official Odoo images provided by Odoo.
-Official images that provide us with all the basic requirements for Odoo to run correctly.
+> “It works on my machine.”
 
-On the other hand, working with Docker provides us with an ephemeral development environment; a quality that is unique to Docker and Docker
-Compose make it easy to develop and throw away when no longer needed.
+In addition, we use official Docker images provided by Odoo, which already include all the basic requirements for running the platform properly.
 
-Among other things, we will be able to raise our environment with a simple command, pause or
-when we have finished or put on hold the continuity of our development, avoiding to occupy our PC's resources.
+Docker also provides ephemeral environments — temporary, isolated containers that can be easily spun up or removed.  
+Using Docker and Docker Compose, you can launch your entire environment with a single command, pause it, and return later without wasting system resources.
 
-To then return to the same state in which we had left our development.
+Pretty cool, right?
 
-Don't you think this is great?
+Finally, Docker Compose will create separate containers: one for Odoo (web) and one for the PostgreSQL database.  
+This isolation lets you stop, restart, or manage each service independently when needed.
 
-Finally, we will mention that Docker Compose will create a web container where Odoo will run and a database container,
-where Postgresql will run. This allows us to have both Odoo and Postgresql isolated;
-allowing us to pause, restart, or stop each service separately if necessary.
-
-### Guide to install Docker and Docker Compose
+### Docker & Docker Compose Installation Guide
 
 [Official Docker Guide](https://docs.docker.com/engine/install/ubuntu/)
 
-## What is GITMAN and why use it?
+## What is GITMAN and Why Use It?
 
-Gitman is a tool that allows us to manage in a yamel type “yml” file 
-all kinds of public repositories that may be necessary to address our developments. 
-With this tool we will be able to have all the repositories or packages from third party repositories
-ready to install in our instance without the need of having to download each and every one of them by hand,
-and then move or copy them to our working directory.
+Gitman is a tool that lets you manage all the public or third-party repositories your project might require via a simple YAML (`.yml`) file.
 
-You “developer” will be able to have all the necessary repos at your disposal just by copying and pasting the links of each repo or third party 
-links of each repo or repository package, too, without the need to move around in the different Odoo versions of each repository,
-since Rocketdoo will dynamically ask you which version you want to work with in each of these repositories.
+With Gitman, you can prepare all necessary third-party modules without manually downloading and copying them into your project folder.
 
-For those who work with Odoo SH, or who have knowledge of submodules, Gitman offers the same experience.
+Just paste the links to the required repositories, and Rocketdoo will dynamically ask you which Odoo version you want to use for each one.  
+No need to navigate different branches or versions.
 
+If you’ve used Odoo SH or Git submodules before, Gitman offers a similar experience.
 
-It is important to emphasize that you do not need to install GITMAN on your PC, as this tool will
-will be installed by default in your development container once the Rocketdoo launcher is started.
+Best of all — you don’t need to install Gitman on your machine. It comes pre-installed in the Rocketdoo development container.
 
-As a bonus, in addition to installing gitman by default and cloning all the necessary third-party repositories
-ready to be installed, Rocketdoo also scans each repository for “requirements.txt” files and installs them,
-avoiding the waste of time and
-of time and having to install each and every one of them by hand. We know from our own experience that 
-more than once we have seen frustrated the creation of a database in Odoo because it indicates us an error or lack of library.
+As a bonus, Rocketdoo will also automatically detect `requirements.txt` files inside the repositories and install any listed Python dependencies — saving you from manually installing libraries and avoiding frustrating errors when starting a new Odoo database.
 
-Rocketdoo comes to facilitate this task too!!!
+Rocketdoo takes care of that too!
 
-Gitman is undoubtedly an essential and necessary tool to work quickly and comfortably, especially because in many cases,
-for example the localizations of some countries are not contemplated or complete in the Odoo core,
-so it is necessary to count on third party developments that come to cover these necessary functionalities. 
+Gitman is an essential tool for fast and flexible development — especially because some localizations and features aren’t available in Odoo’s Community core.  
+This often requires external modules like the popular “Odoo Mates” accounting suite.
 
-A clear example of this is the complete Odoo Accounting
-which is not included in the Community Edition and many of us use the “Odoo Mates” repository.
-
-If you want to know more about GITMAN features, we invite you to read its documentation.
+Want to learn more? Visit Gitman’s official documentation:
 
 [Official Gitman Guide](https://gitman.readthedocs.io/en/latest/)
 
-## Linux or Windows ?
+## Linux or Windows?
 
-As we commented at the beginning of this documentation, this environment is designed and recommended to be used on a Linux operating system.
-and this is not a whim, but it has to do with a reality, and is that Linux by default
-reality, and that is that Linux by default consumes much less resources of your PC, and it is also a system where
-for example Docker works perfectly and this does not happen with Windows.
+As mentioned earlier, Rocketdoo is built and recommended for Linux environments.  
+That’s not just a preference — Linux naturally consumes fewer system resources and provides optimal compatibility with Docker.
 
-But anyway, we are not going to leave aside the most popular operating system in history.
-Yes! we have also thought about Windows, or not really! well, the point is that you can develop with **Rocketdoo**
-by installing WSL2 on your Windows system. 
+That said, we haven’t forgotten about Windows — the world’s most widely used OS.
 
-We will see this in the next section.
+Well, not exactly… but you can still use **Rocketdoo** by installing **WSL2 (Windows Subsystem for Linux v2)** on your Windows machine.
+
+We’ll cover that in the next section.
