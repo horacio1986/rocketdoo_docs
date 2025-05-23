@@ -21,7 +21,7 @@ site_description: "Rocketdoo is a powerful tool for Odoo development, designed t
 
 plugins:
   - search
-  - static-i18n:
+  - i18n:
       docs_structure: folder
       fallback_to_default: true
       reconfigure_material: true
