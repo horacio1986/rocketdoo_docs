@@ -8,4 +8,4 @@ To create a user account and submit a support ticket, please visit the link belo
 
 ---------------------------
 
-![rocketdoo-img-help](img/rocketdoo-docs-help.png)
+![rocketdoo-img-help](../img/rocketdoo-docs-help.png)

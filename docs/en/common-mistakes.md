@@ -8,7 +8,7 @@ In this section, we highlight some of the most frequent errors encountered when 
 
 ## Failed to Install *requirements.txt*
 
-![rocketdoo-img-failreq](img/rocketdoo-docs-fail-require.png)
+![rocketdoo-img-failreq](../img/rocketdoo-docs-fail-require.png)
 
 When faced with this error, the system suggests using Python virtual environments, which is an excellent approach. However, if you prefer to install the requirements on your PC without a virtual environment, you can resolve it with the following command:
 
@@ -26,7 +26,7 @@ python3 -m venv venv && source venv/bin/activate && pip install -r requirements.
 
 Similar issues may occur during the framework installation:
 
-![rocketdoo-img-fail2](img/rocketdoo-docs-fail-rocketdoo.png)
+![rocketdoo-img-fail2](../img/rocketdoo-docs-fail-rocketdoo.png)
 
 Solution:
 
@@ -40,7 +40,7 @@ It is common to attempt launching **ROCKETDOO** from the project's root director
 
 *my-dev-on-odoo/rocketdoo*
 
-![rocketdoo-img-fail3](img/rocketdoo-docs-fail-launch.png)
+![rocketdoo-img-fail3](../img/rocketdoo-docs-fail-launch.png)
 
 To resolve this, press **CTRL + C** to cancel the current action, then navigate to the correct directory and launch again:
 
@@ -51,7 +51,7 @@ rocketdoo
 
 If done correctly, you should see the **ROCKETDOO** welcome screen as below:
 
-![rocketdoo-img-main](img/rocketdoo-main.png)
+![rocketdoo-img-main](../img/rocketdoo-main.png)
 
 ---
 

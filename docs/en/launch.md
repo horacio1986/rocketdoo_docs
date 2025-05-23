@@ -8,7 +8,7 @@ rocketdoo
 
 This will open its interactive CLI screen. It will greet us, and after pressing ***ENTER***, it will begin asking for the necessary information to create our development environment.
 
-![rocketdoo-main](img/rocketdoo-main.png)
+![rocketdoo-main](../img/rocketdoo-main.png)
 
 ## What does Rocketdoo ask for?
 
