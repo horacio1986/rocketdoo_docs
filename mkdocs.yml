@@ -1,6 +1,7 @@
 site_name: Rocketdoo
 theme:
   name: material
+  language: en
   favicon: assets/favicon.svg
   features:
     - content.code.copy        # Habilita el botón de copiar
@@ -34,22 +35,22 @@ plugins:
         - locale: es
           name: Español
           build: true
-          # nav_translation:
-          #   Home: Inicio
-          #   Comenzar: Comenzar
-          #   Windoows and WSL2: Windows y WSL2
-          #   Instructions: Instrucciones
-          #   Steps: Pasos
-          #   Launch Rocketdoo: Lanzar Rocketdoo
-          #   Private Repositories: Repositorios Privados
-          #   Public Repositories: Repositorios Públicos
-          #   Recommended extensions: Extensiones recomendadas
-          #   Command Line: Linea de Comandos
-          #   Use Cases: Casos de Uso
-          #   Common Mistakes: Errores Comunes
-          #   Debbuging in Odoo: Depurando en Odoo
-          #   How to collaborate in this project?: ¿Cómo colaborar en este proyecto?
-          #   HelpDesk: Mesa de Ayuda
+          nav_translation:
+            Home: Inicio
+            Comenzar: Comenzar
+            Windoows and WSL2: Windows y WSL2
+            Instructions: Instrucciones
+            Steps: Pasos
+            Launch Rocketdoo: Lanzar Rocketdoo
+            Private Repositories: Repositorios Privados
+            Public Repositories: Repositorios Públicos
+            Recommended extensions: Extensiones recomendadas
+            Command Line: Linea de Comandos
+            Use Cases: Casos de Uso
+            Common Mistakes: Errores Comunes
+            Debbuging in Odoo: Depurando en Odoo
+            How to collaborate in this project?: ¿Cómo colaborar en este proyecto?
+            HelpDesk: Mesa de Ayuda
         
 nav:
   - Home: index.md
