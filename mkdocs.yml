@@ -1,4 +1,5 @@
 site_name: Rocketdoo
+site_url: https://rocketdoo-docs.readthedocs.io/en/latest
 theme:
   name: material
   language: en
