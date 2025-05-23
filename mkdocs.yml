@@ -1,6 +1,7 @@
 site_name: Rocketdoo
 theme:
   name: material
+  language: en
   favicon: assets/favicon.svg
   features:
     - content.code.copy        # Habilita el botón de copiar
