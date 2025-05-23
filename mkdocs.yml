@@ -1,5 +1,6 @@
 site_name: Rocketdoo
-theme: dracula
+theme: material
+site_description: "Rocketdoo is a powerful tool for Odoo development, designed to streamline the process and enhance productivity."
 nav:
   - Home: index.md
   - Get Started: get-started.md
