@@ -10,7 +10,7 @@ Later in the documentation, we’ll also provide useful commands to go deeper in
 1. Docker – Microsoft (Official)
 2. Dev Containers – Microsoft
 
-![rocketdoo-img-basic-extensions](img/rocketdoo-docs-basic-extensions.png)
+![rocketdoo-img-basic-extensions](../img/rocketdoo-docs-basic-extensions.png)
 
 ## Additional Recommended Extensions
 

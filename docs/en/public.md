@@ -16,7 +16,7 @@ that enhance the functionality of Odoo Community Edition.
 
 A good example is the package provided by *Odoo Mates*, which offers multiple accounting-related modules.
 
-![rocketdoo-img-odooapps](img/rocketdoo-docs-odooapps.png)
+![rocketdoo-img-odooapps](../img/rocketdoo-docs-odooapps.png)
 
 As shown in the image above, *odooapps* contains a collection of modules that enhance accounting features,  
 many of which have dependencies between them.
@@ -30,7 +30,7 @@ it generates and configures a `gitman.yml` file that stores all the information 
 
 Below is an example image of a generated Gitman configuration:
 
-![rocketdoo-img-gitman](img/rocketdoo-docs-gitman.png)
+![rocketdoo-img-gitman](../img/rocketdoo-docs-gitman.png)
 
 In the image, we can see three different module packages, each associated with an Odoo version and a descriptive name.
 

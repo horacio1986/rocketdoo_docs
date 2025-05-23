@@ -1,6 +1,6 @@
 # Welcome to ROCKETDOO
 
-![rocketdoo-welcome](img/banner.png)
+![rocketdoo-welcome](../img/banner.png)
 
 Rocketdoo is a Python-based framework designed to provide a fast and efficient development environment.
 

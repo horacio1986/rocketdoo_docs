@@ -2,7 +2,7 @@
 
 In this section, we’ll gain a clearer understanding of Rocketdoo’s structure. This will help us comprehend how it works behind the scenes and highlight the importance and usage of certain folders and files within Rocketdoo.
 
-![rocketdoo-img-structure](img/rocketdoo-docs-structure.png)
+![rocketdoo-img-structure](../img/rocketdoo-docs-structure.png)
 
 As shown in the image, there is a long list of folders and files that make up the complete Rocketdoo structure.  
 However, we will focus on the folders and files that are most relevant for developers.
@@ -22,13 +22,13 @@ You can either manually create a folder with the name of your module and add its
 
 There, you can use Odoo’s **scaffold** command to generate a new module.
 
-![rocketdoo-img-attach](img/rocketdoo-docs-attach.png)
+![rocketdoo-img-attach](../img/rocketdoo-docs-attach.png)
 
-![rocketdoo-img-shell](img/rocketdoo-docs-shell.png)
+![rocketdoo-img-shell](../img/rocketdoo-docs-shell.png)
 
 ![rocketdoo-img-into-shell](img/rocketdoo-docs-into-shell.png)
 
-![rocketdoo-img-shell2](img/rocketdoo-docs-shell2.png)
+![rocketdoo-img-shell2](../img/rocketdoo-docs-shell2.png)
 
 > **Note:** The “addons” folder inside our development container is mapped as a volume to the “extra-addons” directory.  
 > This is why you must navigate to that folder inside the container.  
