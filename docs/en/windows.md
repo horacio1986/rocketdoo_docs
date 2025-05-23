@@ -1,4 +1,4 @@
-## Windows and WSL2
+# Windows and WSL2
 
 We will not cover step-by-step instructions for installing WSL2 on Windows, as the internet is full of guides.  
 Even the official Windows website provides a step-by-step tutorial on how to install WSL2 on your machine.
