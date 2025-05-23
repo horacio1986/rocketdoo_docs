@@ -28,10 +28,10 @@ plugins:
         - locale: en
           name: English
           default: true
-          build: true
+          # build: true
         - locale: es
           name: Español
-          build: true
+          # build: true
           nav_translation:
             Home: Inicio
             Comenzar: Comenzar
