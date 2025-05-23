@@ -7,6 +7,7 @@ build:
     pre_build:
       - pip install mkdocs
       - pip install mkdocs-material
+      - pip install mkdocs-static-i18n
 mkdocs:
   configuration: mkdocs.yml
 
