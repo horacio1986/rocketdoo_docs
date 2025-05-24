@@ -1,1 +1,1 @@
-# Debbuging in Odoo
+# Depurando en Odoo
