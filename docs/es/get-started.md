@@ -51,7 +51,7 @@ Por último, vale destacar que Docker Compose creará un contenedor para Odoo (w
 
 ### Guía para instalar Docker y Docker Compose
 
-[Guía oficial de Docker](https://docs.docker.com/engine/install/ubuntu/)
+<a href="https://docs.docker.com/engine/install/ubuntu/" target="_blank">Guia Oficial Docker</a>
 
 ## ¿Qué es GITMAN y por qué usarlo?
 

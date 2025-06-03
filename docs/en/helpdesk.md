@@ -4,7 +4,7 @@ If you encounter any issues while using **ROCKETDOO**, you can create a support 
 
 To create a user account and submit a support ticket, please visit the link below and follow the instructions:
 
-[Help Desk Link](https://odoo.hdmsoft.com.ar/mesa-de-ayuda)
+<a href="https://odoo.hdmsoft.com.ar/mesa-de-ayuda" target="_blank">Help Desk</a>
 
 ---------------------------
 

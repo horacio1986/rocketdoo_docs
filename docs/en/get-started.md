@@ -52,7 +52,7 @@ This isolation lets you stop, restart, or manage each service independently when
 
 ### Docker & Docker Compose Installation Guide
 
-[Official Docker Guide](https://docs.docker.com/engine/install/ubuntu/)
+<a href="https://docs.docker.com/engine/install/ubuntu/" target="_blank">Official Docker GUide</a>
 
 ## What is GITMAN and Why Use It?
 

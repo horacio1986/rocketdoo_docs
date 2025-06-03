@@ -3,7 +3,7 @@
 Ciertamente no veremos paso a paso cómo instalar WSL2 en Windows, ya que internet está lleno de guías.  
 Incluso la página oficial de Windows tiene una guía paso a paso sobre cómo instalar WSL2 en tu computadora.
 
-[Guía Oficial de WSL2](https://learn.microsoft.com/en-us/windows/wsl/install)
+<a href="https://learn.microsoft.com/en-us/windows/wsl/install" target="_blank">Guia Oficial WSL2</a>
 
 Pero lo que sí abordaremos son algunas recomendaciones sobre cómo usar esta herramienta para poder desarrollar con Rocketdoo y VSCode.
 
