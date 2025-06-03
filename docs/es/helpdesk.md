@@ -4,7 +4,7 @@ Si tienes algún problema al usar **ROCKETDOO**, puedes crear un ticket de sopor
 
 Para crear un usuario y generar un ticket de soporte, visita el siguiente enlace y sigue las instrucciones:
 
-[Enlace Mesa de Ayuda](https://odoo.hdmsoft.com.ar/mesa-de-ayuda)
+<a href="https://odoo.hdmsoft.com.ar/mesa-de-ayuda" target="_blank">Help Desk</a>
 
 ---------------------------
 

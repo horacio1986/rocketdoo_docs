@@ -2,7 +2,7 @@
 
 ### Step 1:
 
-First, navigate to the **ROCKETDOO** repository [here](https://github.com/HDM-soft/rocketdoo).
+First, navigate to the **ROCKETDOO** repository <a href="https://github.com/HDM-soft/rocketdoo" target="_blank">here</a>
 
 It is crucial to understand that this repository is configured as a **template**, so it should be used as such. Please do **not** clone or fork it directly.
 
