@@ -8,6 +8,21 @@ theme:
     - content.code.copy        # Habilita el botón de copiar
     - content.code.select      # Permite seleccionar código
     - content.code.annotate 
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Change to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Change to light mode
 
 markdown_extensions:
   - pymdownx.highlight:
