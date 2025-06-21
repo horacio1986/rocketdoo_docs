@@ -76,7 +76,7 @@ This often requires external modules like the popular “Odoo Mates” accountin
 
 Want to learn more? Visit Gitman’s official documentation:
 
-[Official Gitman Guide](https://gitman.readthedocs.io/en/latest/)
+<a href="https://gitman.readthedocs.io/en/latest/" target=" blank">Official Gitman Guide</a>
 
 ## Linux or Windows?
 
