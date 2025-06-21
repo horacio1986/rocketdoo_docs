@@ -35,7 +35,7 @@ Y lo más importante es instalar la librería ROCKETDOO:
 sudo pip install rocketdoo
 ~~~
 
-[Rocketdoo oficial en PyPI](https://pypi.org/project/rocketdoo/)
+<a href="https://pypi.org/project/rocketdoo/" target=" blank">Official Rocketdoo PyPi</a>
 
 ---
 

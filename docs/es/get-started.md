@@ -75,7 +75,7 @@ Un ejemplo claro es el módulo completo de contabilidad de Odoo, que no viene in
 
 Si querés conocer más sobre Gitman, te recomendamos visitar su documentación oficial:
 
-[Guía oficial de Gitman](https://gitman.readthedocs.io/en/latest/)
+<a href="https://gitman.readthedocs.io/en/latest/" target=" blank">Guia Oficial Gitman</a>
 
 ## ¿Linux o Windows?
 
