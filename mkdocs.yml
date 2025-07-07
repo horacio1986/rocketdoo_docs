@@ -65,7 +65,7 @@ plugins:
             Command Line: Linea de Comandos
             Use Cases: Casos de Uso
             Common Mistakes: Errores Comunes
-            Debbuging in Odoo: Depurando en Odoo
+            Debugging in Odoo: Depurando en Odoo
             How to collaborate in this project?: ¿Cómo colaborar en este proyecto?
             HelpDesk: Mesa de Ayuda
         
@@ -83,6 +83,6 @@ nav:
   - Command Line: command.md
   - Use Cases: use-cases.md
   - Common Mistakes: common-mistakes.md
-  - Debbuging in Odoo: debbuging-odoo.md
+  - Debugging in Odoo: debugging-odoo.md
   - How to collaborate in this project?: collaborate.md
   - HelpDesk: helpdesk.md
