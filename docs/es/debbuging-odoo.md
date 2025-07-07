@@ -1,1 +1,0 @@
-# Depurando en Odoo
