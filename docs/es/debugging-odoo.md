@@ -1,12 +1,12 @@
 # Depurando en Odoo
 
 Uno de los pasos principales para poder depurar codigo en Odoo, es ingresar al contenedor. 
-Ya que dentro del el
+Ya que dentro de el
 se podra usar la herramienta de depuracion de codigo; ademas de contar con todos los modulos del core del sistema,
 tanto para ediciones Community, como Enterprise.
 
 Para poder ingresar en nuestro contenedor, y asi poder navegar desde el interior del sistema Odoo
-debemos verificara que nuestro contenedor esta corriendo; para esto podemos usar nuestra terminal en nuestra PC,
+debemos verificar que nuestro contenedor esta corriendo; para esto podemos usar nuestra terminal en nuestra PC,
 tambien en una terminal de VSCode o usando la extension recomendada **"Dev Container"**
 
 
